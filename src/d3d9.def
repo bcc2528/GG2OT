@@ -1,0 +1,7 @@
+LIBRARY d3d9
+
+EXPORTS
+	Direct3DCreate9 = hkDirect3DCreate9
+	D3DPERF_BeginEvent
+	D3DPERF_EndEvent
+	D3DPERF_SetOptions
