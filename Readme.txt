@@ -9,7 +9,7 @@ Copy "d3d9.dll", "GG2OT.ini", and "Shader" folder in the same folder as "ggsx.ex
 
 
 
-似たようなMod作ったり、他のプログラム作成する際の自分メモ用にAPIフックプログラムの原理を説明すると、
+似たようなModを作ったり、他のプログラム作成する際の自分メモ用にAPIフックプログラムの原理を説明すると、
 
 1.対象の実行ファイルで読み出されるAPIが記述されたDLLファイルのダミーを作成。
 2.そのダミーDLLファイルが読みだされた(DllMain関数が実行された)際に、関数LoadLibraryでオリジナルのDLLを読み込み、GetProcAddressでアドレスを取得して別名の関数に割り当てておく。
